@@ -58,7 +58,7 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
     }),
 );
 
-const appBar = () => {
+const AppBarComponent = () => {
     const [open, setOpen] = useState(false);
     const toggleDrawer = () => {
         setOpen(!open);
@@ -123,4 +123,4 @@ const appBar = () => {
     )
 }
 
-export default appBar
+export default AppBarComponent
